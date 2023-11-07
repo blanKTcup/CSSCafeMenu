@@ -1,0 +1,17 @@
+body {
+  background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+
+#card {
+  background-color: #704d1f;
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+hr {
+  background-color: #842222;
+  height: 5px;
+}
