@@ -12,7 +12,7 @@ body, html {
   padding: 30px;
 }
 
-#card {
+#main {
   background-color: burlywood;
   height: 767px;
   width: 80%;
@@ -27,19 +27,23 @@ hr {
   height: 2px;
 }
 
-.title, #CAMPERCAFE {
-  font-size: 40px;
-}
-
-.title {
+h1, h2 {
   font-family: Impact, serif;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
+h2 {
+  font-size: 30px;
+}
+
 #header-section > p {
+  text-align: center;
+}
+
+#coffee-section {
   text-align: center;
 }
