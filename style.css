@@ -1,5 +1,6 @@
 body, html {
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 #bg {
@@ -12,8 +13,8 @@ body, html {
 }
 
 #card {
-  background-color: #704d1f;
-  height: 500px;
+  background-color: burlywood;
+  height: 767px;
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -21,6 +22,24 @@ body, html {
 }
 
 hr {
-  background-color: #842222;
-  height: 5px;
+  background-color: brown;
+  border-color: brown;
+  height: 2px;
+}
+
+.title, #CAMPERCAFE {
+  font-size: 40px;
+}
+
+.title {
+  font-family: Impact, serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+#header-section > p {
+  text-align: center;
 }
