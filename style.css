@@ -1,5 +1,14 @@
-body {
+body, html {
+  height: 100%;
+}
+
+#bg {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px;
 }
 
 #card {
