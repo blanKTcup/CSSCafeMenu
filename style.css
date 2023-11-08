@@ -27,6 +27,10 @@ hr {
   height: 2px;
 }
 
+h1, h2, p, footer {
+  text-align: center;
+}
+
 h1, h2 {
   font-family: Impact, serif;
   text-align: center;
@@ -39,10 +43,6 @@ h1, h2 {
 h2 {
   font-size: 30px;
   margin: 20px;
-}
-
-#header-section > p, footer {
-  text-align: center;
 }
 
 #menu-section {
