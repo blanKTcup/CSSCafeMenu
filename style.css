@@ -1,6 +1,6 @@
 body, html {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: sans-serif;
 }
 
 #bg {
@@ -14,7 +14,7 @@ body, html {
 
 #main {
   background-color: burlywood;
-  height: 767px;
+  height: 730px;
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -44,6 +44,27 @@ h2 {
   text-align: center;
 }
 
-#coffee-section {
-  text-align: center;
+#coffee-section, #desserts-section {
+  margin: 30px 0px;
+}
+
+.images {
+  display: block;
+  margin: auto;
+}
+
+.flavor {
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px 0px;
+  width: 75%;
+  text-align: left;
+}
+
+.price {
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px 0px;
+  width: 24%;
+  text-align: right;
 }
