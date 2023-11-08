@@ -68,3 +68,9 @@ h2 {
   width: 24%;
   text-align: right;
 }
+
+footer, footer > a {
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
